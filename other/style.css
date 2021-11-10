@@ -1,0 +1,24 @@
+#info {
+	margin: 10%;
+}
+.square {
+	height: 60vh;
+	padding: 5%;
+}
+.contact {
+}
+.insta {
+	text-align: center;
+	background-color: rgb(98, 98, 98);
+}
+.git {
+	text-align: center;
+	background-color: rgb(98, 98, 98);
+}
+.contact input,
+.contact textarea {
+	margin: 2% 0;
+}
+button {
+	margin: 1%;
+}

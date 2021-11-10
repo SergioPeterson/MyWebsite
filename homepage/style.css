@@ -1,0 +1,73 @@
+#particles-js {
+	/* height: 100vh; */
+	/* width: 100%; */
+	/* position: absolute; */
+}
+#down-arrow {
+	display: block;
+	color: #fff;
+	font-size: xx-large;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-top: 45%;
+	margin-left: 5%;
+}
+#up-arrow {
+	display: block;
+	color: #fff;
+	font-size: xx-large;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-top: 7%;
+	margin-left: 5%;
+}
+.banner {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 87vh;
+	padding: 13% 5%;
+}
+.row {
+	margin: 10% 2%;
+}
+.section .info {
+	padding: 5%;
+}
+.section .img {
+	padding: 5%;
+}
+.section h2 {
+	font-size: xxx-large;
+}
+.section img {
+	height: 85%;
+	width: 80%;
+}
+.section {
+	display: none;
+}
+footer {
+	text-align: center;
+}
+.active {
+	display: flex;
+}
+.deactive {
+	display: flex;
+}
+.blog img {
+	height: 100%;
+}
+.about img {
+	height: 95%;
+	width: 60%;
+}
+.contact img {
+	height: 85%;
+	width: 50%;
+}
