@@ -11,99 +11,98 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Res/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="./homepage/style.css">
-    <!-- https://kuon.space/ -->
 </head>
 
 <body>
-    <header id="header">
-        <nav>
-            <div class="logo">
-                <a href="./index.html">
-                    Sergio W. Peterson
-                </a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="./projects/index.html">Projects</a></li>
-                    <li><a href="./blog/index.html">Blog</a></li>
-                    <li><a href="./about/index.html">About</a></li>
-                    <li><a href="./other/index.html">Other</a></li>
-                </ul>
-            </div>
-        </nav>
+    <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top">
+
+        <a href="./index.html" class="navbar-brand">Sergio W. Peterson</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./projects/index.html" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./blog/index.html" class="nav-link">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about/index.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./other/index.html" class="nav-link">OTHER</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <header class="container">
+        <h1>Welcome to my Page</h1>
+            <h2>Come and get to know me better
+                <p class="animate-arrow">&darr;
+            </p>
+        </h2>
     </header>
-    <div id="particles-js"></div>
-    <span id="up-arrow" onclick="updatePage('up')"><i class="fas fa-chevron-up"></i></span>
-    <span id="down-arrow" onclick="updatePage('down')"><i class="fas fa-chevron-down"></i></span>
-    <div class="banner active section">
-        <h1>Welcome to my page <br>Come and get to know me better</h1>
+
+
+  <section class="scroll-container">
+    <div class="scroll-element js-scroll slide-left">
+        <img src="./Res/img/projectsimg.jpg" alt="Projects Picture" width="90%" height="70%">
     </div>
-
-
-    <div class="section projects row">
-        <div class="info col-6">
-            <h2>Projects</h2>
-            <h3>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sunt libero consectetur porro pariatur
-                quia praesentium ut repudiandae ad, commodi assumenda corrupti nostrum? Magnam facilis odit dignissimos
-                neque id. Dolores!
-            </h3>
-        </div>
-        <div class="img col-6">
-            <img src="./Res/img/projectsimg.jpg" alt="Projects picture">
-        </div>
+    <div class="scroll-caption">
+        <h2>Projects</h2>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe id quam eum minima nulla? Beatae adipisci vitae vero quos praesentium?</h4>
     </div>
+  </section>
 
 
-    <div class="section blog row">
-        <div class="img col-6">
-            <img src="./Res/img/blogimg.jpg" alt="Projects picture">
-        </div>
-        <div class="info col-6">
-            <h2>Blog</h2>
-            <h3>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aut optio dolorum. Quam vel, alias ab
-                aliquid accusantium amet explicabo natus, deserunt delectus minima voluptatum tempora sunt. Quos,
-                quisquam architecto.
-            </h3>
-        </div>
+  <section class="scroll-container">
+    <div class="scroll-element js-scroll slide-right">
+        <img src="./Res/img/blogimg.jpg" alt="Projects Picture" width="90%" height="70%">
     </div>
-
-
-    <div class="section about row">
-        <div class="info col-6">
-            <h2>About</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, harum reiciendis minima
-                iusto maxime est expedita ducimus sequi odit laborum temporibus dolores recusandae provident ratione
-                voluptatum! Nemo praesentium error quibusdam aspernatur iusto qui, omnis odit voluptatum possimus ut.
-                Consectetur, adipisci nam tempore iusto sit earum dolorem praesentium obcaecati mollitia!</h3>
-        </div>
-        <div class="img col-6">
-            <img src="./Res/img/me.png" alt="Projects picture">
-        </div>
+    <div class="scroll-caption">
+        <h2>Blog</h2>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe id quam eum minima nulla? Beatae adipisci vitae vero quos praesentium?</h4>
     </div>
+  </section>
 
-
-    <div class="section contact row">
-        <div class="img col-6">
-            <img src="./Res/img/moreimg.png" alt="Projects picture">
-        </div>
-        <div class="info col-6">
-            <h2>Other</h2>
-            <h3>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aut optio dolorum. Quam vel, alias ab
-                aliquid accusantium amet explicabo natus, deserunt delectus minima voluptatum tempora sunt. Quos,
-                quisquam architecto.
-            </h3>
-        </div>
+  <section class="scroll-container">
+    <div class="scroll-element js-scroll slide-left">
+        <img src="./Res/img/me.png" alt="Projects Picture" width="70%" height="70%">
     </div>
+    <div class="scroll-caption">
+        <h2>About</h2>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe id quam eum minima nulla? Beatae adipisci vitae vero quos praesentium?</h4>
+    </div>
+  </section>
+
+
+  <section class="scroll-container">
+    <div class="scroll-element js-scroll slide-right">
+        <img src="./Res/img/moreimg.png" alt="Projects Picture" width="70%" height="70%">
+    </div>
+    <div class="scroll-caption">
+        <h2>Other</h2>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe id quam eum minima nulla? Beatae adipisci vitae vero quos praesentium?</h4>
+    </div>
+  </section>  
 
     <footer>Sergio W. Peterson <br> UC Berkeley 2024 Grad</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="./homepage/script.js"></script>
-    <script src="./Res/js/app.js"></script>
-    <script src="./Res/js/particles.js"></script>
 </body>
 
 </html>

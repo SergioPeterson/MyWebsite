@@ -4,7 +4,7 @@ body {
 }
 #banner {
 	display: flex;
-	background-image: url(../Res/img/aboutbackground.jpg);
+	background-image: url(../Res/img/aboutMeBackground.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;

@@ -1,43 +1,47 @@
+const scrollElements = document.querySelectorAll(".js-scroll");
 
-let srcolltrackCount = 0;
-let scrolltrackValue = 0;
-const sections = document.getElementsByClassName("section");
-let currentSection = 0;
+const elementInView = (el, dividend = 1) => {
+  const elementTop = el.getBoundingClientRect().top;
 
+  return (
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) / dividend
+  );
+};
 
+const elementOutofView = (el) => {
+  const elementTop = el.getBoundingClientRect().top;
 
+  return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+  );
+};
 
-function updatePage(value){
-    if(value == "down"){
-        if(currentSection != sections.length-1){
-        sections[currentSection].classList.toggle("active");
-        sections[currentSection+1].classList.toggle("active");
-        currentSection = currentSection+1;
+const displayScrollElement = (element) => {
+  element.classList.add("scrolled");
+};
 
-        }
-    }else if(value == "up"){
-        if(currentSection != 0){
-            sections[currentSection].classList.toggle("active");
-            sections[currentSection-1].classList.toggle("active");
-            currentSection = currentSection-1;
-        }
-        
-    }else if(value == "stay"){
+const hideScrollElement = (element) => {
+  element.classList.remove("scrolled");
+};
 
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 1.25)) {
+      displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+      hideScrollElement(el)
     }
+  })
 }
 
+window.addEventListener("scroll", () => { 
+  handleScrollAnimation();
+});
 
-
-// function updateScroll(value){
-//     if(srcolltrackCount == 10){
-//         return "down";
-//     }else if(srcolltrackCount == -10){
-//         return "up";
-//     }else if(value > scrolltrackValue){
-//         srcolltrackCount = srcolltrackCount+1;
-//     }else if(value < scrolltrackValue){
-//         srcolltrackCount = srcolltrackCount-1;
-//     }
-//     return "stay"
-// }
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    });
+});

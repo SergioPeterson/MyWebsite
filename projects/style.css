@@ -28,72 +28,15 @@ body {
 .choose #old_button:hover {
 	background-image: url(../Res/img/sortscreen.jpg);
 	background-repeat: no-repeat;
+	height: 100%;
 }
 .choose #curr_button:hover {
 	background-image: url(../Res/img/webscreen.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.banner {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100vh;
-}
-.sections {
-	padding: 0;
-}
 .section {
 	margin: 5% 10%;
 	display: flex;
 	flex-direction: column;
-}
-.section h5 {
-	margin: 4% 25%;
-	font-size: x-large;
-}
-.section p {
-	padding: 0 25%;
-	line-height: 170%;
-	font-size: large;
-}
-.section .imgs {
-	margin: 5% 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.section img {
-	height: 50%;
-	width: 50%;
-}
-.quote {
-	margin: 0 30%;
-	text-align: center;
-}
-#fav .banner {
-	background-image: url(../Res/img/gamebackground.jpg);
-}
-#fav {
-	display: none;
-	flex-direction: column;
-}
-#current {
-	display: none;
-	flex-direction: column;
-}
-#current .banner {
-	background-image: url(../Res/img/websitebackgound.jpg);
-}
-#old {
-	display: none;
-	flex-direction: column;
-}
-#old .banner {
-	background-image: url(../Res/img/sortbackgound.jpg);
 }
