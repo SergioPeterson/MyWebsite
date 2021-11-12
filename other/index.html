@@ -11,59 +11,78 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Res/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!-- <div id="particles-js"></div> -->
-    <header id="header">
-        <nav>
-            <div class="logo">
-                <a href="../index.html">
-                    Sergio W. Peterson
-                </a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="../projects/index.html">Projects</a></li>
-                    <li><a href="../blog/index.html">Blog</a></li>
-                    <li><a href="../about/index.html">About</a></li>
-                    <li><a href="../other/index.html">Other</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    
+    <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top">
 
-    <div id="info">
-        <div class="section top row">
-            <div class="square col-6">
+        <a href="../index.html" class="navbar-brand">Sergio W. Peterson</a>
 
-            </div>
-            <div class="square col-6 git">
-                <h4>See my Work on GitHub</h4>
-
-            </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../projects/index.html" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../blog/index.html" class="nav-link">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../about/index.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../other/index.html" class="nav-link">OTHER</a>
+                </li>
+            </ul>
         </div>
-        <div class="section bottom row">
-            <div class="square col-6 insta">
-                <h4>Follow me on Instagram</h4>
-            </div>
-            <div class="square col-6 contact">
-                <h3>Talk to Me</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sed neque numquam tenetur dolorum
-                    dolores corrupti, vel modi officiis. Ea eveniet illo consequuntur dolores nemo eius ducimus dolorum
-                    nobis ratione?
-                </p>
-                <input type="email" name="userEmail" id="emailBox" placeholder="Email"> <br>
-                <input type="text" name="userName" id="nameBox" placeholder="Name"><br>
-                <textarea name="userMessage" id="messageBox" cols="60" rows="4" placeholder="Message"></textarea> <br>
-                <button type="submit">submit</button>
-            </div>
-        </div>
-    </div>
+    </nav>
 
-    <footer>Sergio W. Peterson <br> UC Berkeley 2024 Grad</footer>
+    
+    <div class = "about-wrapper">
+        <div class = "about-left">
+          <div class = "about-left-content">
+            <div>
+              <div class = "shadow">
+                <div class = "about-img">
+                  <img src = "../Res/img/me.png" alt = "about image">
+                </div>
+              </div>
+  
+              <h2>Sergio W.<br>Peterson</h2>
+              <h3>Software Engineer</h3>
+            </div>
+  
+            <ul class = "icons">
+              <li><a href=""><i class = "fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class = "fab fa-twitter"></i></a></li>
+              <li><a href=""><i class = "fab fa-linkedin"></i></a></li>
+              <li><a href=""><i class = "fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class = "about-right">
+          <h1>hi<span>!</span></h1>
+          <h2>Here's who I am & what I do</h2>
+          <div class = "about-btns">
+            <button type = "button" class = "btn btn-pink">resume</button>
+            <button type = "button" class = "btn btn-white">github</button>
+          </div>
+  
+          <div class = "about-para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
+          </div>
+        </div>
+      </div>
+  
+    <!-- <footer>Sergio W. Peterson <br> UC Berkeley 2024 Grad</footer> -->
     <script src="../other/script.js"></script>
 </body>
 

@@ -1,6 +1,45 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
+
+* {
 	margin: 0;
 	padding: 0;
+	scrollbar-width: thin;
+	scrollbar-color: black rgba(0, 0, 0, 0);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	background-color: black;
+	font-weight: lighter;
+	padding: 0;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#navLinks{
+	padding: 0 2%;
+}
+
+#mainNavbar .nav-item {
+	padding: 0 3%;
+}
+#mainNavbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgba(106, 127, 243, 0.719);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgba(106, 127, 243, 0.719);
+    font-size: 1.5rem;
+}
+.navbar.scrolled {
+    background: rgba(47, 47, 47, 0.623);
+    transition: background 500ms;
 }
 #banner {
 	display: flex;
@@ -122,4 +161,7 @@ h2 .line {
 	font-size: larger;
 	justify-self: center;
 	align-self: center;
+}
+footer{
+	text-align: center;
 }
