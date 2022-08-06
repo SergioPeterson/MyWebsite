@@ -1,0 +1,32 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.App {
+  height: max-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#main{
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+#main .container{
+  /* border: #fff 2px solid; */
+  align-items: center;
+  justify-content: center;
+}
+
+#main h1, #main h2, #main button{
+  /* text */
+  padding: 1%;
+}
