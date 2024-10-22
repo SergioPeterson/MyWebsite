@@ -44,7 +44,7 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
       title: "Personal Website",
       description:
         "Designed and developed a personal website as a portfolio to showcase my projects and skills. The website is built using React and Tailwind CSS and is hosted on GitHub Pages. The website also serves as a reflection of my growth as a developer as I continue to add new projects and skills.",
-      link: "https://github.com/micahkepe/micahkepe.github.io",
+      link: "https://github.com/SergioPeterson/MyWebsite",
       skills: ["React", "Node", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
     },
   ];

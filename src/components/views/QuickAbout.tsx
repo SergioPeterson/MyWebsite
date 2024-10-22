@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const QuickAbout = (): JSX.Element => {
   const [showOwl, setShowOwl] = useState<boolean>(false);
-  const [owlSrc, setOwlSrc] = useState<string>("/assets/bearSprite.gif");
+  const [owlSrc, setOwlSrc] = useState<string>("/assets/owlSprite.gif");
   const [isDesktop, setIsDesktop] = useState<boolean>(window.innerWidth > 768);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const QuickAbout = (): JSX.Element => {
     setShowOwl(true);
     setOwlSrc("");
     setTimeout(() => {
-      setOwlSrc("/assets/bearSprite.gif");
+      setOwlSrc("/assets/owlSprite.gif");
     }, 0);
   };
 

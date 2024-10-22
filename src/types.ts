@@ -34,12 +34,12 @@ export interface ExperienceComponentProps {
   skills: string[];
 }
 
-export interface BlogPost {
-  title: string;
-  link: string;
-  pubDate: string;
-  content: string;
-}
+// export interface BlogPost {
+//   title: string;
+//   link: string;
+//   pubDate: string;
+//   content: string;
+// }
 
 export interface SocialLink {
   icon: JSX.Element;
@@ -66,9 +66,9 @@ export interface ExperienceProps {
   windowWidth: number;
 }
 
-export interface BlogProps {
-  windowWidth: number;
-}
+// export interface BlogProps {
+//   windowWidth: number;
+// }
 
 export interface ContactProps {
   windowWidth: number;
