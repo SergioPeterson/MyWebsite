@@ -1,0 +1,17 @@
+name = "after-after-dark"
+description = "A robuster, eleganter dark theme"
+license = "MIT"
+homepage = "https://github.com/micahkepe/after-after-dark"
+
+[extra]
+
+
+[author]
+name = "Micah Kepe"
+homepage = "https://micahkepe.com"
+
+
+[original]
+author =  "Vincent Prouillet"
+homepage = "https://www.vincentprouillet.com"
+repo = "https://www.vincentprouillet.com"
