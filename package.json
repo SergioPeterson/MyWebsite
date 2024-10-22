@@ -1,6 +1,6 @@
 {
   "name": "my-personal-website",
-  "homepage": "https://SergioPeterson.github.io/micahkepe.github.io",
+  "homepage": "https://SergioPeterson.github.io/MyWebsite.github.io",
   "version": "0.3.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,7 @@
     "test": "vite test",
     "clean": "rm -rf build/*",
     "predeploy": "npm run clean && npm run build:blog && npm run build",
-    "deploy": "gh-pages -d build -m 'deploying to gh-pages'"
+    "deploy": "gh-pages -d build -m 'deploying to gh-pages' -f"
   },
   "eslintConfig": {
     "extends": [
