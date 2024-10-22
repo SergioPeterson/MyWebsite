@@ -1,4 +1,3 @@
-base_url = "https://getzola.github.io/after-dark/"
 compile_sass = true
 title = "after-dark theme"
 description = "A robust, elegant dark theme"
