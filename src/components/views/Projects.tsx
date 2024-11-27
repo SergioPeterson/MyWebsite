@@ -11,8 +11,8 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
       image: "/assets/trans.png",
       title: "VoidFormer",
       description:
-        "Developed a state-of-the-art translation model from scratch using the Transformer architecture, focusing on Spanish-to-English translation. Utilized the attention mechanism to fine-tune the model, achieving high translation accuracy. The project involved custom model architecture design, hyperparameter tuning, and extensive testing to optimize performance.",
-      link: "https://github.com/yourusername/voidformer",
+        "UNDERDEVELPENT - Developed a state-of-the-art translation model from scratch using the Transformer architecture, focusing on Spanish-to-English translation. Utilized the attention mechanism to fine-tune the model, achieving high translation accuracy. The project involved custom model architecture design, hyperparameter tuning, and extensive testing to optimize performance.",
+      link: "https://github.com/SergioPeterson/voidformer",
       skills: ["PyTorch", "Transformers", "Attention Mechanism", "Machine Translation", "Hyperparameter Tuning"],
     },  
     {
@@ -20,7 +20,7 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
       title: "Rate My Anime Software",
       description:
         "Developed an AI-powered system that ranks users' anime preferences using a K-Nearest Neighbors algorithm, providing personalized responses through the Llama 2 API. Built a full-stack web application using ReactJS and PostgreSQL, integrating OAuth 2.0 and the MyAnimeList API for secure user authentication and data retrieval.",
-      link: "https://github.com/yourusername/rate-my-anime",
+      link: "https://github.com/SergioPeterson/RateMyAnimeList",
       skills: ["ReactJS", "PostgreSQL", "OAuth 2.0", "Llama 2 API", "KNN"],
     },
     {
@@ -28,7 +28,7 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
       title: "Yelp Restaurant Review Score Prediction",
       description:
         "Analyzed a large Yelp dataset to predict restaurant review scores using machine learning models like Neural Networks, Random Forest, and Linear Regression. Achieved 88% accuracy and conducted advanced sentiment analysis using VADER to gain insights into customer preferences and feedback trends.",
-      link: "https://github.com/yourusername/yelp-review-prediction",
+      link: "https://github.com/SergioPeterson/Yelp_score_pred",
       skills: ["Python", "Pandas", "NLTK", "Sklearn", "VADER", "Word2Vec"],
     },
     {
@@ -36,7 +36,7 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
       title: "Voice Recognition Automobile",
       description:
         "Designed a voice-controlled car that responds to user commands in real-time, leveraging machine learning techniques like linear regression, SVD, and PCA for voice detection. Implemented linear feedback for motor synchronization and path correction, enabling smooth and accurate navigation.",
-      link: "https://github.com/yourusername/voice-recognition-automobile",
+      link: "https://github.com/SergioPeterson/voice-recognition-automobile",
       skills: ["Python", "Machine Learning", "Linear Regression", "PCA", "Control Systems"],
     },  
     {
@@ -46,6 +46,14 @@ const Projects: React.FC<ProjectsProps> = ({ windowWidth }) => {
         "Designed and developed a personal website as a portfolio to showcase my projects and skills. The website is built using React and Tailwind CSS and is hosted on GitHub Pages. The website also serves as a reflection of my growth as a developer as I continue to add new projects and skills.",
       link: "https://github.com/SergioPeterson/MyWebsite",
       skills: ["React", "Node", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      image: "/assets/research_proj_img.png",
+      title: "Hierarchical Predictive Learning - CV/ML",
+      description:
+        "Developed the computer vision pipeline to detect lanes and guide the car in real-time. Using techniques like thresholding, Sobel filters, and perspective transformation, I built a system to track lanes, calculate their curvature, and provide key inputs for the Model Predictive Controller (MPC). I also integrated this pipeline into ROS to process camera feeds and publish navigation data, showing how the HPL algorithm can work for autonomous racing.",
+      link: "https://github.com/SergioPeterson/research-project-CV",
+      skills: ["OpenCV", "ROS", "CV", "ML", "Edge Detection", "Perspective Transformation", "Polynomial Fitting", "Model Predictive Control", "Real-Time Systems", "Image Processing"]    
     },
   ];
 
