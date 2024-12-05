@@ -124,18 +124,6 @@ my-website/
 3. **Icons and Images**:
    - Replace assets in the `public/` directory as needed.
 
----
-
-## Screenshots
-
-### Home Page
-![Home Page](public/screenshots/home.png)
-
-### Projects
-![Projects Page](public/screenshots/projects.png)
-
----
-
 ## Technologies Used
 
 - **Frontend**:
