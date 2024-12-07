@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             rel="noreferrer"
             className="no-underline hover:underline hover:text-white decoration-green"
           >
-            Brittany Chiang
+            Micah Kepe
           </a>
         </p>
       </div>
