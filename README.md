@@ -161,3 +161,4 @@ Contributions are welcome! If you have suggestions for improvement or new featur
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
+Credit to: https://github.com/micahkepe/micahkepe.github.io
